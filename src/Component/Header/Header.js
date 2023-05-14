@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../../Asset/logo.png';
-import {  } from "react-icons/fa";
+import { FaCircle, FaShoppingBasket, FaShoppingCart } from "react-icons/fa";
 
 import './Header.css';
 import { Link } from 'react-router-dom';
@@ -19,21 +19,7 @@ import { Link } from 'react-router-dom';
                             title="Company"
                             className="inline-flex items-center"
                           >
-                            {/* <svg
-                              className="w-8 text-deep-purple-accent-400"
-                              viewBox="0 0 24 24"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeMiterlimit="10"
-                              stroke="currentColor"
-                              fill="none"
-                            >
-                              <rect x="3" y="1" width="7" height="12" />
-                              <rect x="3" y="17" width="7" height="6" />
-                              <rect x="14" y="1" width="7" height="6" />
-                              <rect x="14" y="11" width="7" height="12" />
-                            </svg> */}
+                        
                              <img src={logo} alt="" className='h-28' />
                
                             
@@ -76,34 +62,26 @@ import { Link } from 'react-router-dom';
         <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
       </svg>
     </button>
-    {/* <div className="py-1" role="none">
-
-      <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Edit</a>
-
-    </div>
-                             */}
+   
                             </li>
                             <li>
                               <a
                                 href="/"
-                                aria-label="About us"
-                                title="About us"
+                                aria-label="login"
+                                title="login"
                                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400
-                                bg-green-800 px-3 py-2 rounded-lg "
+                                btn px-3 py-2 rounded-3xl "
                               >
                                Login
                               </a>
                             </li>
                             <li className='bg-black'>
-                              {/* <a
-                                href="/"
-                                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide  transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none "
-                                aria-label="Sign up"
-                                title="Sign up"
-                              >
-                              </a> */}
-                              <i className="fa fa-calculator " aria-hidden="true"></i>
+                            
                          
+                            </li>
+                            <li className='cart rounded-3xl p-3'>
+                             
+                                <FaShoppingCart className='text-white'></FaShoppingCart>
                             </li>
                           </ul>
                           <div className="lg:hidden">
@@ -139,21 +117,7 @@ import { Link } from 'react-router-dom';
                                         title="Company"
                                         className="inline-flex items-center"
                                       >
-                                        {/* <svg
-                                          className="w-8 text-deep-purple-accent-400"
-                                          viewBox="0 0 24 24"
-                                          strokeLinejoin="round"
-                                          strokeWidth="2"
-                                          strokeLinecap="round"
-                                          strokeMiterlimit="10"
-                                          stroke="currentColor"
-                                          fill="none"
-                                        >
-                                          <rect x="3" y="1" width="7" height="12" />
-                                          <rect x="3" y="17" width="7" height="6" />
-                                          <rect x="14" y="1" width="7" height="6" />
-                                          <rect x="14" y="11" width="7" height="12" />
-                                        </svg> */}
+                                   
                                         <img src={logo} alt="" className='w-24' />
                                        
                                       </a>
@@ -183,7 +147,7 @@ import { Link } from 'react-router-dom';
                                           title="Our product"
                                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                         >
-                                          Destination
+                                        Home
                                         </a>
                                       </li>
                                       <li>
@@ -193,7 +157,7 @@ import { Link } from 'react-router-dom';
                                           title="Our product"
                                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                         >
-                                          Hotels
+                                         Blog
                                         </a>
                                       </li>
                                       <li>
@@ -203,39 +167,30 @@ import { Link } from 'react-router-dom';
                                           title="Product pricing"
                                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                         >
-                                          Flights
+                                          About Us
                                         </a>
                                       </li>
                                       <li>
-                                        <a
-                                          href="/"
-                                          aria-label="About us"
-                                          title="About us"
-                                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                        >
-                                          Booking
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a
-                                          href="/"
-                                          aria-label="About us"
-                                          title="About us"
-                                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                        >
-                                          Login
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a
-                                          href="/"
-                                          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-gray-700  transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                                          aria-label="Sign up"
-                                          title="Sign up"
-                                        >
-                                          Sign up
-                                        </a>
-                                      </li>
+                            <button type="button" className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50" id="menu-button" aria-expanded="true" aria-haspopup="true">
+      En
+      <svg className="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+      </svg>
+    </button>
+   
+                            </li>
+                            <li>
+                              <a
+                                href="/"
+                                aria-label="login"
+                                title="login"
+                                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400
+                                btn px-3 py-2 rounded-3xl "
+                              >
+                               Login
+                              </a>
+                            </li>
+                                   
                                     </ul>
                                   </nav>
                                 </div>

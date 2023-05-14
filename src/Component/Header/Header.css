@@ -16,10 +16,14 @@ li.link:visited{
 
 }
 
+.btn{
+    background-color: #396C03;
+}
 
 
-
-
+.cart{
+    background-color: #396C03;
+}
 
 /* .react-icons {
     vertical-align: middle;

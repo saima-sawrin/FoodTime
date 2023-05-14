@@ -36,21 +36,35 @@ import './Hero.css';
                 Learn more
               </a>
             </div> */}
-            <form className="flex justify-content-end items-center w-full mb-4 md:flex-row ">
+            {/* <form className="  items-center w-full mb-4 md:flex-row ">
+            <button className="rounded-2xl bg-orange-500 p-4"></button>
             <input
-              placeholder="Email"
+              placeholder="Enter your location"
               required=""
               type="text"
               className="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 shadow-sm appearance-none md:mr-2 md:mb-0 rounded-3xl focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
             />
             <button
               type="submit"
-              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none rounded-3xl bg-green-800 "
+              className="inline-flex items-center justify-center w-full h-12 sm:px-1 lg:px-6 font-medium tracking-wide text-white transition duration-200 shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none rounded-3xl btn "
             >
                 <FaSearch className="pr-2 w-8" ></FaSearch>
               Search
             </button>
-          </form>
+          </form> */}
+<div>
+  <label for="hs-trailing-button-add-on-with-icon-and-button" class="sr-only">Label</label>
+  <div class="relative flex rounded-3xl border-2 border-gray-300 ">
+    <input type="text" id="hs-trailing-button-add-on-with-icon-and-button " placeholder="    Enter your location"name="hs-trailing-button-add-on-with-icon-and-button" class="py-3 px-4 pl-11 block w-full border-gray-200 shadow-sm rounded-l-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"/>
+
+   <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none z-20 pl-4">
+   
+      <button className="p-4 rounded-3xl bg-orange-500 inline-flex flex-shrink-0 justify-center items-center  border border-transparent font-semibold  focus:z-10 text-white  focus:outline-none focus:ring-2 transition-all text-sm"></button>
+    </div>
+    <button type="button" class="btn py-3 px-4 inline-flex flex-shrink-0 justify-center items-center rounded-3xl border border-transparent font-semibold  focus:z-10 text-white  focus:outline-none focus:ring-2 transition-all text-sm">
+    <FaSearch className="pr-2 w-8" ></FaSearch>Search</button>
+  </div>
+</div>
           </div>
         </div>
         <div className="leaf2">
