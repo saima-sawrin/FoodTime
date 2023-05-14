@@ -6,11 +6,11 @@ import leaf from '../../Asset/image 3.png';
  const Hero = () => {
     return (
    <div className=" ">
-       <div className=" relative px-4 pt-10 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full   lg:max-w-screen-xl">
+       <div className=" lg:relative px-4 pt-10 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full   lg:max-w-screen-xl">
      
      
-     <div className="max-w-xl mx-auto lg:max-w-screen-xl  ">
-
+     <div className=" max-w-xl mx-auto lg:max-w-screen-xl  ">
+      
        <div className="mb-16 lg:max-w-lg lg:mb-0 ">
          <div className="max-w-xl mb-6">
           
@@ -44,7 +44,7 @@ import leaf from '../../Asset/image 3.png';
 </div>
        </div>
      </div>
-     <div className="leaf2">
+   
      <div className=" mt-10 h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end hero ">
        <img
          src={meal}
@@ -54,7 +54,7 @@ import leaf from '../../Asset/image 3.png';
      </div>
      </div>
    </div>
-   </div>
+
     );
   };
   export default Hero;
