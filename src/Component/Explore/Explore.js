@@ -37,7 +37,7 @@ import './Explore.css';
         <div className=" mt-10  h-full  overflow-hidden lg:w-full xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end exploreBg ">
           <img
             src={boy}
-            className=" lg:mt-20  h-full lg:w-full w-4/5  max-w-xl -mb-16  lg:ml-64 xl:ml-8  lg:h-auto lg:max-w-screen-md "
+            className=" lg:mt-20  h-full lg:w-full w-4/5  max-w-xl -mb-16  lg:ml-64 xl:ml-8  lg:h-auto lg:max-w-screen-md boy"
             alt=""
           />
         </div>

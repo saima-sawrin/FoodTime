@@ -56,7 +56,7 @@ const Hero = () => {
         <div className=" mt-10 h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end hero ">
           <img
             src={meal}
-            className="object-cover object-top h-full w-4/5  max-w-xl -mb-16 rounded lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md"
+            className="object-cover object-top h-full w-4/5  max-w-xl -mb-16 rounded lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md meal"
             alt=""
           />
         </div>
