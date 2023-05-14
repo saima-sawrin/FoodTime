@@ -2,12 +2,15 @@ import { FaBeer, FaSearch } from "react-icons/fa";
 
 import meal from '../../Asset/hero.png';
 import './Hero.css';
+import leaf from '../../Asset/image 3.png';
  const Hero = () => {
     return (
-   <div className="leaf">
+   <div className=" ">
        <div className=" relative px-4 pt-10 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full   lg:max-w-screen-xl">
      
+     
      <div className="max-w-xl mx-auto lg:max-w-screen-xl  ">
+
        <div className="mb-16 lg:max-w-lg lg:mb-0 ">
          <div className="max-w-xl mb-6">
           

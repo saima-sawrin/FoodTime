@@ -14,9 +14,12 @@
 .leaf1{
     background-image:url('/Asset/image\ 3.png') ;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: initials;
+    background-attachment: relative ;
+
 
 }
+
 /* .leaf2{
     background-image:url('/Asset/image\ 4.png') ;
     background-repeat: no-repeat;
