@@ -1,0 +1,26 @@
+/* .Hero{
+    background-image: url('../../Asset/');
+} */
+.title{
+    color: #396C03;
+
+        font-family: 'Merienda', cursive ;
+    /* font-family: 'Roboto', sans-serif; */
+
+    font-weight: 700px;
+    size: 65px;
+    line-height:50px;
+}
+.leaf1{
+    background-image:url('/Asset/image\ 3.png') ;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+.leaf2{
+    background-image:url('/Asset/image\ 4.png') ;
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}

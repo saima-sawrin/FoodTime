@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Main from './Layout/Main';
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
     }
   ])
   return (
-    <div className="App">
-   
+    <div className="app">
+   <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

@@ -1,0 +1,26 @@
+.h2{
+    font-family: 'Merienda', cursive ;
+/* font-family: 'Roboto', sans-serif; */
+color: #396C03;
+font-weight: 700px;
+size: 65px;
+}
+.nav1{
+    position: fixed;
+}
+link:visited{
+    color: #A81C51;
+}
+li.link:visited{
+    color: #A81C51;
+
+}
+
+
+
+
+
+
+/* .react-icons {
+    vertical-align: middle;
+  } */
