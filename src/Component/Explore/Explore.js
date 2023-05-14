@@ -3,7 +3,7 @@ import boy from '../../Asset/image 5.png';
 import './Explore.css';
  const Explore = () => {
     return (
-      <div className=" relative px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full   lg:max-w-screen-xl">
+      <div className=" relative px-4 pt-10 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full   lg:max-w-screen-xl">
      
         <div className="max-w-xl mx-auto lg:max-w-screen-xl  ">
           <div className="mb-16 lg:max-w-lg lg:mb-0 ">

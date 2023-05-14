@@ -14,16 +14,16 @@
 .leaf1{
     background-image:url('/Asset/image\ 3.png') ;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: left;
 
 }
-.leaf2{
+/* .leaf2{
     background-image:url('/Asset/image\ 4.png') ;
     background-repeat: no-repeat;
     background-position: right;
 
 
-}
+} */
 .btn{
     background-color: #396C03;
 }

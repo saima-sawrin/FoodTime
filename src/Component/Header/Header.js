@@ -82,6 +82,7 @@ import { Link } from 'react-router-dom';
                             <li className='cart rounded-3xl p-3'>
                              
                                 <FaShoppingCart className='text-white'></FaShoppingCart>
+                              
                             </li>
                           </ul>
                           <div className="lg:hidden">
