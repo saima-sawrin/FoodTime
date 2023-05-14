@@ -9,9 +9,9 @@ import { Link } from 'react-router-dom';
                     const [isMenuOpen, setIsMenuOpen] = useState(false);
                   
                     return (
-                    <div className='header '>
+                    <div className='header  shadow-sm border-2 border-gray-300  '>
                         {/* Navbar Started */}
-                          <div className="px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+                          <div className="px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                         <div className=" flex items-center justify-between nav">
                           <a
                             href="/"
